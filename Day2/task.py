@@ -1,13 +1,12 @@
 # Day 2: String Manipulation & Type Conversion:
 
-
-# Task: Ask the user for two numbers and an operator (+, -, *, /).
-# Perform the operation. If dividing by zero, print "Error: Cannot divide by zero."
-# Otherwise, print the result rounded to 2 decimal places.
+# Task: Ask the user for a full name (e.g., "john doe").
+# Convert it to title case, count total letters (ignore spaces), and reverse the name.
+# Print all three results.
 
 # Starter code:
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-op = input("Enter operator (+, -, *, /): ")
-# TODO: Use if/elif/else to handle operation
-# TODO: Handle division by zero
+full_name = input("Enter your full name: ").strip()
+# TODO: Convert to title case
+# TODO: Count letters (no spaces)
+# TODO: Reverse the string
+# TODO: Print results with labels
