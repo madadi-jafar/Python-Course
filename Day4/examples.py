@@ -7,10 +7,15 @@
 
 # Your code here:
 
+<<<<<<< HEAD
 number = int(input("Enter a number: "))
 if number > 0:
     print("The number is positive.")
              
+=======
+
+
+>>>>>>> main
 
 # Task 2: 'if...else' statement
 # Write a program that checks if a number is even or odd.
@@ -18,11 +23,15 @@ if number > 0:
 
 # Your code here:
 
+<<<<<<< HEAD
 num = int(input("Enter a number: "))
 if number != 0 and number % 2 == 0 :
     print("Even")
 else :
     print("Odd")
+=======
+
+>>>>>>> main
 
 
 # Task 3: 'if...elif...else' statement
@@ -34,6 +43,7 @@ else :
 # Below 60: "F"
 
 # Your code here:
+<<<<<<< HEAD
 grade = float(input("Enter your grade: "))
 if number > 100:
     print("INVALID SCORE!")
@@ -49,6 +59,10 @@ elif grade < 60 and grade >= 0:
     print("\"F\"")
 else:
     print(" INVALID SCORE")
+=======
+
+
+>>>>>>> main
 
 
 # Task 4: Nested 'if' statement
@@ -57,6 +71,7 @@ else:
 # If it's not positive, just print "Number is not positive."
 
 # Your code here:
+<<<<<<< HEAD
 num = int(input("Enter a number: "))
 if num > 0 :
     if num % 2 ==0 :
@@ -65,6 +80,8 @@ if num > 0 :
         print("Odd")
 else:
     print("Number is not positive.")
+=======
+>>>>>>> main
 
 
 
@@ -74,8 +91,13 @@ else:
 # otherwise assign "Minor". Assume age = 20. Print 'status'.
 
 # Your code here:
+<<<<<<< HEAD
 age = 20
 status = "Adult" if age >= 18 else "Minor"
+=======
+
+
+>>>>>>> main
 
 
 # Task 6: Logical operators (and, or, not)
@@ -87,9 +109,13 @@ status = "Adult" if age >= 18 else "Minor"
 # Test with: age = 17, is_citizen = True
 
 # Your code here:
+<<<<<<< HEAD
 age = 17
 is_citizen = True
 if age >= 18 and is_citizen == True:
     print("Eligible to vote")
 else:
     print("Not eligible")
+=======
+
+>>>>>>> main
